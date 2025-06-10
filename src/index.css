@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-culinary-50;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-herb-600 text-white rounded-lg hover:bg-herb-700 focus:outline-none focus:ring-2 focus:ring-herb-500 focus:ring-offset-2 transition-colors duration-200 shadow-lg shadow-herb-900/20;
+  }
+  
+  .btn-secondary {
+    @apply px-4 py-2 bg-spice-100 text-spice-800 rounded-lg hover:bg-spice-200 focus:outline-none focus:ring-2 focus:ring-spice-500 focus:ring-offset-2 transition-colors duration-200 shadow-lg shadow-spice-900/10;
+  }
+  
+  .input-field {
+    @apply block w-full px-3 py-2 bg-white/90 border border-culinary-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-herb-500 focus:border-herb-500 transition-colors duration-200 shadow-sm;
+  }
+  
+  .card {
+    @apply bg-white/90 backdrop-blur-sm rounded-xl shadow-lg border border-culinary-100 overflow-hidden hover:shadow-xl transition-all duration-200 hover:scale-[1.02];
+  }
+}
+
+.glass-card {
+  @apply bg-white/10 backdrop-blur-md border border-white/20 rounded-xl shadow-xl;
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r from-herb-500 to-spice-500 bg-clip-text text-transparent;
+}
