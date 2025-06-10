@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "homepage": "hhttps://nikhila2607.github.io/kitcheninventory/",
+  "homepage": "https://nikhila2607.github.io/kitcheninventory/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
